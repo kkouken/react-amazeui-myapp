@@ -1,24 +1,26 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.offcanvas .myfile .touxiang{
+	background-color: #666;
+	height: 200px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.offcanvas .myfile .touxiang img{
+	padding: 18% 0;
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
 }
-
-.App-intro {
-  font-size: large;
+.offcanvas .myfile .jianjie{
+	margin-top: 20%;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.offcanvas .myfile .jianjie p{
+    width: 90%;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+#TabBar{
+	 position:fixed; 
+	 left:0px; 
+	 bottom:0px; 
+	 z-index:9999;
 }
